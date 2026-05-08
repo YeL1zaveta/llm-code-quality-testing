@@ -1,0 +1,83 @@
+**Zadanie 1 Merge Sort**
+Write a Python function called merge_sort(arr).
+
+Requirements:
+- The function should sort a list of numbers in ascending order using merge sort algorithm
+- Do not use built-in sorting functions
+
+The function should:
+- handle edge cases such as empty list or single element list
+- return a new sorted list
+
+Return only the function code.
+Do not include explanations.
+
+**Zadanie 2 Password Validation**
+Write a Python function called is_valid_password(password).
+
+Requirements:
+- The password must be at least 8 characters long
+- It must contain at least one uppercase letter
+- It must contain at least one lowercase letter
+- It must contain at least one digit
+- It must contain at least one special character
+- It must not contain spaces
+
+The function should:
+- return True if the password is valid
+- return False otherwise
+- handle edge cases such as empty string, None, or invalid data types
+
+Return only the function code.
+Do not include explanations.
+
+**Zadanie 3 Order Calculator**
+Write a Python function called calculate_order_total(items, discount_code).
+
+Requirements:
+- Each item is a dictionary with keys: name, price, quantity
+- Total price = sum(price * quantity)
+- If discount_code is „SAVE10”, apply 10% discount
+- Shipping is free if total >= 200
+- Otherwise shipping cost is 15
+
+The function should:
+- handle edge cases such as empty list, zero quantity, or invalid data
+- return the final price
+
+Return only the function code.
+Do not include explanations.
+
+**Zadanie 4 Final Grade**
+Write a Python function called calculate_final_grade(points, attendance).
+
+Requirements:
+- Points range from 0 to 100
+- Attendance is percentage (0-100)
+- If attendance < 50, return 2
+- 90-100 → 5
+- 75-89 → 4
+- 60-74 → 3
+- below 60 → 2
+
+
+The function should:
+- handle invalid inputs and edge cases
+
+Return only the function code.
+Do not include explanations.
+
+
+**Zadanie 5 Text Analysis**
+Write a Python function called analyze_text(text).
+
+Requirements:
+- Return number of characters, words, and sentences
+- Sentences end with “ . “ , “!” or “?”
+- Ignore extra spaces
+
+The function should:
+- handle empty text and edge cases
+
+Return only the function code.
+Do not include explanations.

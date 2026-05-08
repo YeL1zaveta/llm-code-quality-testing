@@ -1,0 +1,78 @@
+**Zadanie 1 Merge Sort**
+Write a Python function called merge_sort(arr).
+
+Requirements:
+
+- The function should sort a list of numbers in ascending order using merge sort algorithm
+- Do not use built-in sorting functions
+- The function accepts lists containing integers, floats, or None values
+- None values should be preserved and treated as elements that do not affect sorting
+(i.e., a list with a single None should return [None])
+- If the input is not a list, return False
+- If the list contains elements other than integers, floats, or None, return False
+
+The function should:
+
+- handle edge cases such as empty list or single element list
+- return a new sorted list for valid input
+- return False for any invalid input
+
+Return only the function code.
+Do not include explanations.
+
+**Zadanie 3 Order Calculator**
+Write a Python function called calculate_order_total(items, discount_code).
+
+Requirements:
+- Each item is a dictionary with keys: name, price, quantity
+- Total price = sum(price * quantity)
+- If discount_code is “SAVE10”, apply 10% discount to the products total only, not to shipping
+- Shipping is free if the original products total (before discount) >= 200, otherwise shipping cost is 15
+- Final price = discounted products total + shipping cost
+
+The function should:
+- handle edge cases such as empty list, missing keys, negative values, invalid data types
+- return appropriate values for invalid input
+
+Return only the function code.
+Do not include explanations.
+
+**Zadanie 4 Final Grade**
+Write a Python function called calculate_final_grade(points, attendance).
+
+Requirements:
+- Points range from 0 to 100
+- Attendance is percentage (0-100)
+- If attendance < 50, return 2
+- 90-100 → 5
+- 75-89 → 4
+- 60-74 → 3
+- below 60 → 2
+- Return False for any invalid input, do NOT raise exceptions
+
+The function should:
+- handle edge cases such as out of range values, invalid data types, None, strings
+- return False instead of raising exceptions for invalid input
+
+Return only the function code.
+Do not include explanations.
+
+
+**Zadanie 5 Text Analysis**
+Write a Python function called analyze_text(text).
+
+Requirements:
+- Return a dictionary with keys: characters, words, sentences
+- characters: count ALL characters including spaces
+- words: count words separated by spaces, ignore extra spaces
+- sentences: count ONLY groups ending with “.”, “!”, or “?” - text without any of these characters has 0 sentences
+- Multiple consecutive ending characters (e.g. “!!!”, “?.”) count as ONE sentence
+- Return False if input is not a string (e.g. None, int, list)
+- Empty string returns 0 for characters , words  and sentences
+
+The function should:
+- handle edge cases such as empty text, only spaces, text without sentence endings
+- return False for invalid input types, do NOT raise exceptions
+
+Return only the function code.
+Do not include explanations.
